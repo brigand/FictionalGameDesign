@@ -1,7 +1,5 @@
-FictionalGameDesign
+Fictional Game Design
 ===================
-
-just a fun experiment, has music and everything :-)
 
 It's just a 1 day project I put together.  No real reason.  I'll try to clean up the code a bit, so it can 
 hopefully be useful as a reference for some common techniques.
