@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fictional Game Design</title>
+    <link href='http://fonts.googleapis.com/css?family=Glass+Antiqua|Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/fictional.css"/>
+</head>
+<body>
+<div id="slideContainer">
+    <div id="mountains"></div>
+    <div id="trees"></div>
+    <div id="blocks"></div>
+    <div id="mario"></div>
+    <div id="pages">
+        <div class="page">
+            <h1>Fictional Game Design</h1>
+
+            <h2>if we existed... we'd be awesome!</h2>
+
+            <p></p>
+
+            <p>[ explore with the arrow keys ]</p>
+
+            <p>[ hold shift to run ]</p>
+
+            <p onclick="music.playing ? music.stop() : music.play()" style="cursor: pointer">[ click to toggle music
+                ]</p>
+        </div>
+
+        <div class="page">
+            <h1>A Game*</h1>
+
+            <p>
+                <iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/U6U4Kfi_Lls" frameborder="0"
+                        allowfullscreen></iframe>
+            </p>
+            <p>*not by us</p>
+        </div>
+
+        <div class="page">
+            <h1><span style="font-size: 12px; vertical-align: middle">hypothetical</span>
+                Customer Reviews</h1>
+            <blockquote>
+                The game they made for me was wonderful! Even I play it!
+                <cite>Beelzebub</cite>
+            </blockquote>
+            <blockquote>
+                Fictional Game design made my dreams come true! Finally, I have a Pacman/Gears of War mashup.
+                <cite>Captain Awesome</cite>
+            </blockquote>
+            <blockquote>
+                Most companies make 3 D games these days. Fictional Game Design made a 7 D adventure game, and they
+                did it at the speed of light!
+                <cite>Albert Einstein</cite>
+            </blockquote>
+            <blockquote>
+                Me featuring my favorite companions fictional game design made a game for. Yes, hmmm.
+                <cite>Minch Yoda</cite>
+            </blockquote>
+        </div>
+
+        <div class="page">
+            <div class="pole">
+                <img src="assets/flag.gif" alt="flag"/>
+            </div>
+        </div>
+
+        <div class="page">
+            <h1>Credit</h1>
+            <p>Design & Development by <a href="https://github.com/brigand">Frankie Bagnardi</a></p>
+            <p>Thanks to <a href="https://github.com/meenie">Cody Lundquist</a> for <a href="https://github.com/meenie/8bit.js">8bit.js</a></p>
+        </div>
+
+    </div>
+</div>
+<div id="char">
+    <img src="assets/stand.gif" alt="character" id="stand"/>
+    <img src="assets/walk.gif" alt="character" id="walk" style="display: none"/>
+</div>
+<script type="text/javascript" src="lib/8bit.min.js"></script>
+<script type="text/javascript" src="js/music.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/fictional.js"></script>
+</body>
+</html>
