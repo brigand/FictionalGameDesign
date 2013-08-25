@@ -18,12 +18,12 @@ Some newish tricks/tools it uses:
  - 3D CSS transform to turn the running character around
  
  
- Some oldish tricks/tools it uses:
+Some oldish tricks/tools it uses:
  
  - jQuery
  - relative positioning (everything is in a sliding container, animated with `jQuery.animate`)
  - animated gif (for the walking animation)
-   - two images alternate being visible: stand.gif and walk.gif
-   - they change on keydown and keyup
+      - two images alternate being visible: stand.gif and walk.gif
+      - they change on keydown and keyup
 
-- setInterval and [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/window.clearInterval)
+ - setInterval and [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/window.clearInterval)
